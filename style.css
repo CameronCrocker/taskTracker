@@ -1,0 +1,263 @@
+body {
+    margin:0;
+}
+
+/* //////////////////////////////////////////////// */
+/* HEADER STYLING https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_navbar */
+/* //////////////////////////////////////////////// */
+
+.header {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 17px;
+    background-color: #555555;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .header-left input[type="text"] {
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 1px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+}
+
+.header .header-left input[type="password"] {
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+}
+
+.header .header-right button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background-color: #666;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.header p{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.header .header-left button{
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 0px;
+    background-color: #666;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.header .header-left input, button{
+    float: left;
+}
+
+.header button:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+.header a {
+    float: left;
+    display: block;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 0px;
+    margin-top: 8px;
+}
+
+.header a:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+/* //////////////////////////////////////////////// */
+/* REGISTER PAGE */
+/* //////////////////////////////////////////////// */
+
+.sign-up {
+    margin: auto;
+    background: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up input[type="text"] {
+    background-color: lightgrey;
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+}
+
+.sign-up input[type="password"] {
+    background-color: lightgray;
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+}
+
+.sign-up .heading{
+    color: #666666;
+}
+
+.sign-up button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 0px;
+    background-color: #666;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up button:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+.sign-up .error {
+    color: red;
+}
+
+.sign-up .success {
+    color: green;
+}
+
+/* //////////////////////////////////////////////// */
+/* ADD, EDIT, REMOVE PAGES */
+/* //////////////////////////////////////////////// */
+
+.enter-data, .delete-data, .edit-data{
+    margin: auto;
+    background: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="number"], input[type="date"] {
+    background-color: lightgrey;
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:135px;
+}
+
+.enter-data input[type="password"] {
+    background-color: lightgray;
+    display: block;
+    text-align: left;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:120px;
+}
+
+.enter-data .heading{
+    color: #666666;
+}
+
+.enter-data button, .edit-data button, .delete-data button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-left: 0px;
+    background-color: #666;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.enter-data button:hover, .edit-data button:hover, .delete-data button:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+/* REMOVING THE ARROW FROM THE SIDE OF THE NUMBER INPUT BOX */
+/* REF: https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* //////////////////////////////////////////////// */
+/* INDEX PAGE STYLING */
+/* //////////////////////////////////////////////// */
+.index-page{
+    margin: auto;
+    background-color: white;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+
+tr:nth-child(odd){background-color: #3B3B3B}
+tr:nth-child(even){background-color: #212121}
+
+th {
+    background-color: #121212;
+    color: whitesmoke;
+}
